@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resume — Isaac W.</title>
+	<style>
+		:root{--accent:#2b6cb0;--muted:#555;--bg:#f7fafc}
+		body{font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:#222}
+		.container{max-width:900px;margin:40px auto;background:#fff;border-radius:10px;box-shadow:0 6px 20px rgba(20,20,40,0.08);overflow:hidden}
+		header{display:flex;align-items:center;gap:20px;padding:28px 32px;background:linear-gradient(90deg,var(--accent),#3aa0ff);color:#fff}
+		.avatar{width:84px;height:84px;border-radius:12px;background:rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;font-weight:700}
+		h1{margin:0;font-size:1.6rem}
+		p.role{margin:6px 0 0;opacity:0.95}
+		.main{display:grid;grid-template-columns:1fr 2fr;gap:28px;padding:28px 32px}
+		.card{background:#fbfdff;border-radius:8px;padding:18px}
+		h2{margin:0 0 12px;font-size:1.05rem}
+		ul{margin:0;padding-left:1.1rem}
+		.muted{color:var(--muted)}
+		.section{margin-bottom:18px}
+		.work-item{margin-bottom:12px}
+		.job-title{font-weight:600}
+		.dates{font-size:0.9rem;color:var(--muted)}
+		.qualities{display:flex;flex-wrap:wrap;gap:8px}
+		.chip{background:linear-gradient(180deg,#eef6ff,#f7fbff);padding:6px 10px;border-radius:999px;font-size:0.9rem;color:var(--accent);border:1px solid rgba(43,108,176,0.12)}
+		footer{padding:14px 32px;background:#f0f6ff;color:var(--muted);font-size:0.95rem}
+		@media(max-width:720px){.main{grid-template-columns:1fr;padding:20px}.avatar{width:64px;height:64px}}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="avatar">IW</div>
+			<div>
+				<h1>Isaac Martinez</h1>
+				<p class="role">Resume — Student & Team Player</p>
+				<p class="muted" style="margin-top:6px">GPA: <strong>3.0</strong></p>
+			</div>
+		</header>
+
+		<div class="main">
+			<aside>
+				<div class="card section">
+					<h2>Contact</h2>
+					<p class="muted">Add your email and phone here.</p>
+				</div>
+
+				<div class="card section">
+					<h2>Skills</h2>
+					<ul>
+						<li>Responsibility</li>
+						<li>Time management</li>
+						<li>Drive to complete tasks</li>
+						<li>Teamwork</li>
+					</ul>
+				</div>
+
+				<div class="card section">
+					<h2>Education</h2>
+					<p class="muted">Current student — include school/major here</p>
+					<p style="margin-top:8px"><strong>GPA</strong>: 3.0</p>
+				</div>
+			</aside>
+
+			<section>
+				<div class="card section">
+					<h2>Work Experience</h2>
+					<div class="work-item">
+						<div class="job-title">Crew Member — Dutch Bros</div>
+						<div class="dates">August 2025 — Present</div>
+						<p class="muted" style="margin-top:6px">Serving customers, preparing beverages, and working with the team in a fast-paced environment.</p>
+					</div>
+
+					<div class="work-item">
+						<div class="job-title">Team Member — Burger King</div>
+						<div class="dates">1 year experience</div>
+						<p class="muted" style="margin-top:6px">Food preparation, cash handling, customer service, and cross-team collaboration.</p>
+					</div>
+				</div>
+
+				<div class="card section">
+					<h2>Personal Qualities</h2>
+					<div class="qualities">
+						<div class="chip">Responsible</div>
+						<div class="chip">Punctual</div>
+						<div class="chip">Goal-oriented</div>
+						<div class="chip">Teamworker</div>
+					</div>
+				</div>
+
+				<div class="card section">
+					<h2>Hobbies</h2>
+					<p class="muted">I enjoy learning musical instruments. I currently play three instruments: guitar, bass, and piano. This hobby demonstrates my determination to learn new skills and how exploring one interest can spark others.</p>
+				</div>
+
+				<div class="card section">
+					<h2>Summary</h2>
+					<p class="muted">Motivated student with hands-on experience in customer service roles. Reliable, punctual, and works well within teams to deliver quality service and meet goals.</p>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			Ready to update contact details or tweak styling — tell me what you want changed.
+		</footer>
+	</div>
+</body>
+</html>
